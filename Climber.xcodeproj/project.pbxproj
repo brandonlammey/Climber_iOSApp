@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B36497832B7226C4DDAC2C /* Pods_Climber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0D73F4B3877D01D5B7B688 /* Pods_Climber.framework */; };
+		CB1CE67F1FFAFA8300D2090D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CE67E1FFAFA8300D2090D /* AppDelegate.swift */; };
+		CB1CE6841FFAFA8300D2090D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1CE6821FFAFA8300D2090D /* Main.storyboard */; };
+		CB1CE6861FFAFA8300D2090D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1CE6851FFAFA8300D2090D /* Assets.xcassets */; };
+		CB1CE6891FFAFA8300D2090D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1CE6871FFAFA8300D2090D /* LaunchScreen.storyboard */; };
+		CB1CE6911FFAFB9000D2090D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB1CE6901FFAFB9000D2090D /* GoogleService-Info.plist */; };
+		CB1CE6931FFB0A8200D2090D /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CE6921FFB0A8100D2090D /* SignupViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D5A814B966E815EAA59D3F6 /* Pods-Climber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Climber.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Climber/Pods-Climber.debug.xcconfig"; sourceTree = "<group>"; };
+		8E0D73F4B3877D01D5B7B688 /* Pods_Climber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Climber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1CE67B1FFAFA8300D2090D /* Climber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Climber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1CE67E1FFAFA8300D2090D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB1CE6831FFAFA8300D2090D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB1CE6851FFAFA8300D2090D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB1CE6881FFAFA8300D2090D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB1CE68A1FFAFA8300D2090D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB1CE6901FFAFB9000D2090D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CB1CE6921FFB0A8100D2090D /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		DEB8F1F8D8066F4EB824BA40 /* Pods-Climber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Climber.release.xcconfig"; path = "Pods/Target Support Files/Pods-Climber/Pods-Climber.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB1CE6781FFAFA8300D2090D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B36497832B7226C4DDAC2C /* Pods_Climber.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008985BF50A6FCDA4D4C2EFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E0D73F4B3877D01D5B7B688 /* Pods_Climber.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE98ED177A36779A45B7D3A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D5A814B966E815EAA59D3F6 /* Pods-Climber.debug.xcconfig */,
+				DEB8F1F8D8066F4EB824BA40 /* Pods-Climber.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB1CE6721FFAFA8200D2090D = {
+			isa = PBXGroup;
+			children = (
+				CB1CE67D1FFAFA8300D2090D /* Climber */,
+				CB1CE67C1FFAFA8300D2090D /* Products */,
+				AE98ED177A36779A45B7D3A8 /* Pods */,
+				008985BF50A6FCDA4D4C2EFE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB1CE67C1FFAFA8300D2090D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB1CE67B1FFAFA8300D2090D /* Climber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB1CE67D1FFAFA8300D2090D /* Climber */ = {
+			isa = PBXGroup;
+			children = (
+				CB1CE67E1FFAFA8300D2090D /* AppDelegate.swift */,
+				CB1CE6821FFAFA8300D2090D /* Main.storyboard */,
+				CB1CE6851FFAFA8300D2090D /* Assets.xcassets */,
+				CB1CE6871FFAFA8300D2090D /* LaunchScreen.storyboard */,
+				CB1CE68A1FFAFA8300D2090D /* Info.plist */,
+				CB1CE6901FFAFB9000D2090D /* GoogleService-Info.plist */,
+				CB1CE6921FFB0A8100D2090D /* SignupViewController.swift */,
+			);
+			path = Climber;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB1CE67A1FFAFA8300D2090D /* Climber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1CE68D1FFAFA8300D2090D /* Build configuration list for PBXNativeTarget "Climber" */;
+			buildPhases = (
+				8C86AE3255706B9536E6E6D6 /* [CP] Check Pods Manifest.lock */,
+				CB1CE6771FFAFA8300D2090D /* Sources */,
+				CB1CE6781FFAFA8300D2090D /* Frameworks */,
+				CB1CE6791FFAFA8300D2090D /* Resources */,
+				C100A8BBF9ED78C55F6483FD /* [CP] Embed Pods Frameworks */,
+				061EB650C1FD7E0AFF732C11 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Climber;
+			productName = Climber;
+			productReference = CB1CE67B1FFAFA8300D2090D /* Climber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB1CE6731FFAFA8200D2090D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = AL;
+				TargetAttributes = {
+					CB1CE67A1FFAFA8300D2090D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CB1CE6761FFAFA8300D2090D /* Build configuration list for PBXProject "Climber" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB1CE6721FFAFA8200D2090D;
+			productRefGroup = CB1CE67C1FFAFA8300D2090D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB1CE67A1FFAFA8300D2090D /* Climber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB1CE6791FFAFA8300D2090D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1CE6891FFAFA8300D2090D /* LaunchScreen.storyboard in Resources */,
+				CB1CE6911FFAFB9000D2090D /* GoogleService-Info.plist in Resources */,
+				CB1CE6861FFAFA8300D2090D /* Assets.xcassets in Resources */,
+				CB1CE6841FFAFA8300D2090D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		061EB650C1FD7E0AFF732C11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Climber/Pods-Climber-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C86AE3255706B9536E6E6D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Climber-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C100A8BBF9ED78C55F6483FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Climber/Pods-Climber-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Climber/Pods-Climber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB1CE6771FFAFA8300D2090D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1CE6931FFB0A8200D2090D /* SignupViewController.swift in Sources */,
+				CB1CE67F1FFAFA8300D2090D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB1CE6821FFAFA8300D2090D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1CE6831FFAFA8300D2090D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB1CE6871FFAFA8300D2090D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1CE6881FFAFA8300D2090D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB1CE68B1FFAFA8300D2090D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB1CE68C1FFAFA8300D2090D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB1CE68E1FFAFA8300D2090D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D5A814B966E815EAA59D3F6 /* Pods-Climber.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8KBK4EBEM;
+				INFOPLIST_FILE = Climber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AL.Climber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB1CE68F1FFAFA8300D2090D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB8F1F8D8066F4EB824BA40 /* Pods-Climber.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8KBK4EBEM;
+				INFOPLIST_FILE = Climber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AL.Climber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB1CE6761FFAFA8300D2090D /* Build configuration list for PBXProject "Climber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1CE68B1FFAFA8300D2090D /* Debug */,
+				CB1CE68C1FFAFA8300D2090D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB1CE68D1FFAFA8300D2090D /* Build configuration list for PBXNativeTarget "Climber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1CE68E1FFAFA8300D2090D /* Debug */,
+				CB1CE68F1FFAFA8300D2090D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB1CE6731FFAFA8200D2090D /* Project object */;
+}
