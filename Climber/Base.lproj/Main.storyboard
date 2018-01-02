@@ -152,6 +152,7 @@
                         <outlet property="emailField" destination="cEW-Df-XVn" id="d3w-YV-eNf"/>
                         <outlet property="imageView" destination="W4c-DJ-v1U" id="6Hj-fH-mg8"/>
                         <outlet property="nameField" destination="GUi-Nk-4Dg" id="woA-Z5-EGw"/>
+                        <outlet property="nextButton" destination="O0q-zp-I6K" id="Z4l-I5-ZV8"/>
                         <outlet property="password" destination="DWC-8t-YaC" id="0dH-4X-EsC"/>
                     </connections>
                 </viewController>

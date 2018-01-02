@@ -16,6 +16,7 @@ class SignupViewController: UIViewController, UIImagePickerControllerDelegate, U
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var confirmPassword: UITextField!
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var nextButton: UIButton!
     
     let picker = UIImagePickerController()
     var userStorage: StorageReference!
@@ -42,7 +43,7 @@ class SignupViewController: UIViewController, UIImagePickerControllerDelegate, U
         
         if let image = info[UIImagePickerControllerEditedImage] as? UIImage{
             self.imageView.image = image
-            //nextButton.isHidden = false
+            nextButton.isHidden = false
         }
         self.dismiss(animated: true, completion: nil)
     }
@@ -52,8 +53,8 @@ class SignupViewController: UIViewController, UIImagePickerControllerDelegate, U
             return
         }
         
-        if password.text == confirmPassword.text{
-            Auth.auth().createUser(withEmail: emailField.text!, password: password.text!, completion:{(user, error) in
+        if password.text == confirmPassword.text {
+            Auth.auth().createUser(withEmail: emailField.text!, password: password.text!, completion: { (user, error) in
                 
                 if let error = error{
                     print(error.localizedDescription)
@@ -69,40 +70,47 @@ class SignupViewController: UIViewController, UIImagePickerControllerDelegate, U
                     
                     let data = UIImageJPEGRepresentation(self.imageView.image!, 0.5)
                     
-                    let uploadTask = imageRef.put(data, metadata:nil, completion:{(metadata, err) in
-                        if err != nil{
-                            print(err!.localizedDescritption)
+                    let uploadTask = imageRef.putData(data!, metadata: nil, completion: { (metadata, err) in
+                        if err != nil {
+                            print(err!.localizedDescription)
                         }
                         
-                        imageRef.downlaodURL(completion: {(url,er) in
+                        imageRef.downloadURL(completion: {(url,er) in
                             if er != nil{
                                 print(er!.localizedDescription)
                             }
                             
-                            if let url = url{
-                                let userInfo: [String: Any] = ["uid" : user.uid, "full name": self.nameField.text!, "urlToImage" : url.absoluteString]
-                                
-                                //create user
+                            
+                            if let url = url {
+                                let userInfo: [String : Any] = ["uid" : user.uid,
+                                                                "full name" : self.nameField.text!,
+                                                                "urlToImage" : url.absoluteString]
                                 self.ref.child("users").child(user.uid).setValue(userInfo)
                                 
                                 //go to user view
-                                let thisView = UIStoryboard(name: "Main", bundle:nil).instantiateInitialViewController(withIdentifier: "usersViewController")
+                                let thisView = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "usersViewController")
                                 
-                                self.present(thisView, animated:true, completion: nil)
+                                self.present(thisView, animated: true, completion: nil)
+                                
                             }
+                            
                         })
+                        
                     })
                     
                     uploadTask.resume()
+                    
                 }
                 
+                
             })
+
             
         }
-        else{
+        else {
             print("PASSWORD DOES NOT MATCH")
         }
+   
     }
     
-
 }
