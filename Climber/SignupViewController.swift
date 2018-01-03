@@ -58,6 +58,16 @@ class SignupViewController: UIViewController, UIImagePickerControllerDelegate, U
                 
                 if let error = error{
                     print(error.localizedDescription)
+                    if (error.localizedDescription == "The email address is already in use by another account."){
+                        // create the alert
+                        let alert = UIAlertController(title: "Error", message: "The email address is already in use by another account.", preferredStyle: UIAlertControllerStyle.alert)
+                    
+                        // add an action (button)
+                        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                    
+                        // show the alert
+                        self.present(alert, animated: true, completion: nil)
+                    }
                 }
                 
                 if let user = user{
@@ -109,6 +119,16 @@ class SignupViewController: UIViewController, UIImagePickerControllerDelegate, U
         }
         else {
             print("PASSWORD DOES NOT MATCH")
+            
+            //Obtained from https://stackoverflow.com/questions/24022479/how-would-i-create-a-uialertview-in-swift/33340757#33340757http://musamexico.org
+            // create the alert
+            let alert = UIAlertController(title: "Error", message: "Passwords do not Match.", preferredStyle: UIAlertControllerStyle.alert)
+            
+            // add an action (button)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            
+            // show the alert
+            self.present(alert, animated: true, completion: nil)
         }
    
     }
