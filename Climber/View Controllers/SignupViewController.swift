@@ -50,6 +50,14 @@ class SignupViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     @IBAction func nextPressed(_ sender: Any) {
         guard nameField.text != "", emailField.text != "", password.text != "", confirmPassword.text != "" else {
+            // create the alert
+            let alert = UIAlertController(title: "Error", message: "All fields are mandatory!", preferredStyle: UIAlertControllerStyle.alert)
+            
+            // add an action (button)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            
+            // show the alert
+            self.present(alert, animated: true, completion: nil)
             return
         }
         

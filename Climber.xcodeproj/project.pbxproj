@@ -12,6 +12,7 @@
 		ACE3290E1FFC55950054DCD5 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE3290D1FFC55950054DCD5 /* UsersViewController.swift */; };
 		ACE329161FFC5EC40054DCD5 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE329151FFC5EC40054DCD5 /* UserTableViewCell.swift */; };
 		ACE3291B1FFC650C0054DCD5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE3291A1FFC650C0054DCD5 /* User.swift */; };
+		ACE3291D1FFD4FBB0054DCD5 /* NewRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE3291C1FFD4FBB0054DCD5 /* NewRequestViewController.swift */; };
 		CB1CE67F1FFAFA8300D2090D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CE67E1FFAFA8300D2090D /* AppDelegate.swift */; };
 		CB1CE6841FFAFA8300D2090D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1CE6821FFAFA8300D2090D /* Main.storyboard */; };
 		CB1CE6861FFAFA8300D2090D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1CE6851FFAFA8300D2090D /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		ACE3290D1FFC55950054DCD5 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		ACE329151FFC5EC40054DCD5 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		ACE3291A1FFC650C0054DCD5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ACE3291C1FFD4FBB0054DCD5 /* NewRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRequestViewController.swift; sourceTree = "<group>"; };
 		CB1CE67B1FFAFA8300D2090D /* Climber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Climber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1CE67E1FFAFA8300D2090D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB1CE6831FFAFA8300D2090D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				ACE3290D1FFC55950054DCD5 /* UsersViewController.swift */,
 				CB1CE6921FFB0A8100D2090D /* SignupViewController.swift */,
 				ACE3290B1FFC2AD90054DCD5 /* LoginViewController.swift */,
+				ACE3291C1FFD4FBB0054DCD5 /* NewRequestViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				CB1CE6931FFB0A8200D2090D /* SignupViewController.swift in Sources */,
 				CB1CE67F1FFAFA8300D2090D /* AppDelegate.swift in Sources */,
 				ACE329161FFC5EC40054DCD5 /* UserTableViewCell.swift in Sources */,
+				ACE3291D1FFD4FBB0054DCD5 /* NewRequestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
